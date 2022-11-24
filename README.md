@@ -120,7 +120,7 @@ yarn test -t <describe ou test específico envolto em aspas>
 \\ ./scr/__tests__/integration/categories/categoriesRoutes.test.ts
 ````
 
-<br>
+
 
 
 **Caso você queira verificar todas as opções de execução de testes, visite a [Documentação oficial do Jest](https://jestjs.io/docs/cli)**
@@ -129,7 +129,7 @@ Após rodar um dos comandos aparecerá um log no seu terminal, contendo as infor
 
 **Observação:** O teste pode demorar alguns segundos para ser finalizado. Quanto maior for o teste, mais tempo será consumido para a execução.
 
-#
+
 
 
 **Atenção:** É necessário criar uma arquivo chamado .env dentro da pasta do projeto e colocar as suas credenciais nela, use o arquivo .env.example como
