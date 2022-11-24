@@ -1,6 +1,15 @@
-# S5-19 | 🏁 Entrega: KImóveis - TypeORM com Relacionamentos
+KImóveis - TypeORM com Relacionamentos
 
-Para inciar este projeto, é necessário instalar as dependências, que serão utilizadas nos testes. Portanto utilize o comando abaixo para instalar tais dependências:
+API de uma imobiliária aonde os administradores podem cadastrar imóveis, endereços e categorias para dentro do banco e usuários podem se cadastrar e agendar visitas nos imóveis disponíveis na API.
+
+**Tecnologias utilizadas:**
+
+Node.js | Express.js | Yarn | Yup | JWT | DOTENV | Express-async-errors | Reflect-metadata | TypeORM | PostgreSQL | Bcryptjs | PG | UUID
+
+Para clonar o repositório use este comando no seu terminal:
+
+````
+git clone git@github.com:anjosdelacerda/ki-imoveis.git
 
 ````
 yarn install
@@ -123,5 +132,7 @@ Após rodar um dos comandos aparecerá um log no seu terminal, contendo as infor
 #
 
 
+**Atenção:** É necessário criar uma arquivo chamado .env dentro da pasta do projeto e colocar as suas credenciais nela, use o arquivo .env.example como
+parâmetro. Para isso você terá que ter o **PostgreSQL** instalado em sua máquina, caso tenha dúvidas você poderá consultar a documentação <a href="https://www.postgresql.org/docs/current/tutorial-start.html">aqui</a>.
 
-### Agora que já sabe como iniciar o seu projeto e rodar os testes, é hora de colocar a mão no código!
+Dentro da aplicação terá o arquivo workspace.json aonde você poderá importa-lo em seu testador de rotas favorito.
