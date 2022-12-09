@@ -12,6 +12,8 @@ Para clonar o repositório use este comando no seu terminal:
 git clone git@github.com:anjosdelacerda/ki-imoveis.git
 
 ````
+use o comando abaixo para instalar todas as dependências necessárias
+````
 yarn install
 ````
 
